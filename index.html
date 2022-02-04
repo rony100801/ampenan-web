@@ -11,6 +11,8 @@
     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
   <!-- Bootstrap -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- My Css -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -47,12 +49,53 @@
   </nav>
   <!-- AKHIR NAVBAR -->
 
+  <!-- JUMBOTRON -->
+  <section id="home">
+    <div class="jumbotron mt-5 pt-5 bg-dark">
+      <div class="row justify-content-center text-light">
+        <div class="col-md-8 text-center mt-5">
+          <h2 class="display-4">Welcome to Ampenan Web</h2>
+          <h4 class="display-6">Make your business on the internet easy and quality only on ampenan web</h4>
+          <h5>Price starting from IDR <span class="text-warning">550.000</span></h5>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-3">
+        <div class="col-md-8 text-center">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#landingpage">
+            Order Now
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="landingpage" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="landingpage">Contact via WhatsApp</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-left">
+                  <a href="#" class="btn btn-success">WhatsApp</a>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- AKHIR JUMBOTRON -->
+
   <!-- ABOUT -->
   <section id="about" class="mt-5 pt-5">
     <div class="container pt-3 pb-2">
       <div class="row mb-5">
         <div class="col text-center">
-          <h2>About Me</h2>
+          <h2>About Us</h2>
         </div>
       </div>
       <div class="row justify-content-center align-items-center">
@@ -112,7 +155,6 @@
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
                     </div>
                   </div>
                 </div>
@@ -153,7 +195,6 @@
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
                     </div>
                   </div>
                 </div>
@@ -197,7 +238,6 @@
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
                     </div>
                   </div>
                 </div>
@@ -238,7 +278,6 @@
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
                     </div>
                   </div>
                 </div>
